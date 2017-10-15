@@ -9,5 +9,5 @@ for i in range(5):
     y.append(random.randint(0,5))
 
 
-plt.scatter(x,y)
+plt.scatter(x,y,c='orange')
 plt.show()
